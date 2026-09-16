@@ -1,7 +1,7 @@
 inventory = 0
 failedEntries = 0
 while inventory < 500:
-    stock = input("Enter stock ")
+    stock = input("Enter stock: ")
     if stock == "quit":
         print("Total Units Processed:", inventory)
         print("Number of Failed/Rejected Entries:", failedEntries)
